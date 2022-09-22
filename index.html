@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html{
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.index-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("background3.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(13, 193, 225);
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.home-text{
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(245, 214, 8);
+}
+.topnav a:hover {
+  background-color: rgba(221, 221, 221, 0.697);
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #aa3304;
+  color: white;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="Offer.html">Offer</a>
+  <a href="About.html">About</a>
+  <a href="ContactMe.html">Contact Me</a>
+</div>
+
+<div class="index-image">
+<div class="home-text">
+ <h1>This is my portfolio</h1>
+ <p>My name is Moxu Zhu</p>
+</div>
+<img src="moxu2.png" alt="Moxu" style="width:30%">
+</div>
+<div class="footer">
+  <p>|Privacy policy||Terms of use|</p>
+</div>
+
+</body>
+</html>
